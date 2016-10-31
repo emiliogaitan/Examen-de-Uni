@@ -1,0 +1,27 @@
+body{background-color: #FDFDFD;}
+.tr{margin-left: 1em;}
+.tf{margin-right: 2em;}
+.navv{background-image:url("../img/UA897CVTGL.jpg") ;height: 96vh;  background-size:cover ;}
+.nav-color{background-color: white !important;}
+.nav-h:hover{border-bottom:1px solid black !important;}
+.tex, tex:hover{border-radius: 5px;height: 36px;padding: 0 1rem;text-transform: uppercase;line-height: 36px;font-size: 18px;font-family: "Arial Narrow";vertical-align: middle;display:inline-block;color: black;}
+.t{border: 1px solid white;}
+.t:hover{border: 1px solid #212121;}
+.no-margin{margin: 0;}
+.padi{padding-top: 0em;display: inline-block;}
+.padi div{padding-top: 12em;padding-left: 0em;}
+.res{display: inline-block;width: 40%;margin: 0 1em;}
+.g{padding-top: 4em;padding-bottom: 4em;}
+.divk{background-color:#292929;color: black;}
+.nuv{padding: 2em 2em;}
+.k{width: 40%;float: left;}
+.ce{float: right;height: 40%;}
+.collection .collection-item.avatar {min-height: 230px !important;}
+footer{background-color: #212121 !important;color: white !important;}
+.bbt{width: 100%;}.bbt div{display: inline-block;width: 25%;}.bbt img{width:100%;}
+.rrr{width: 25%;}
+.bu{height: 50% !important;}
+.bu img{width:;: 100% !important;}
+.w{width: 25% !important;border: 1px solid white !important;padding-bottom: 1em;}
+.wr {width: 100% !important;}
+.uu{padding-bottom: 5em;padding-top: 5em;}

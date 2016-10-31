@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Restaurants & Cafes</title>
+    <link href="css/css.iconos.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="css/personal.css">
+</head>
+<body>
+<div>
+    <nav class="nav-color">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo blue-grey-text tr">Restaurants & Cafes </a>
+            <ul class="right  hide-on-med-and-down tf " ng-init="borde=1">
+                <li><a href="index.html" class="tex">Inicio</a></li>
+                <li><a class="tex " ng-click="borde = 1" href="#test3">Menu</a></li>
+                <li><a href="#" class="tex ">Blog</a></li>
+                <li><a href="#" class="tex ">Evento</a></li>
+                <li><a class="tex "  ng-init="borde=5" href="#test5">Reservaciones</a></li>
+                <li><a class="tex " ng-init="borde=4" href="#test4">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="navv ">
+        <div class="padi">
+            <img src="img/y.jpg" alt="" class="left hide-on-med-and-down">
+
+            <div class="white-text right center">
+                <h4>Bienvenido</h4>
+
+                <h3 class=" no-margin">Restaurants & Cafes</h3>
+
+                <p>La mejor comida,reposteria,bebidas al mejor precio.</p>
+                <!-- Modal Trigger -->
+                <a class="waves-effect waves-light btn modal-trigger t transparent btn-large"
+                   href="#modal1">Historia</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content blue-grey-text">
+                        <h4>Una gran historia 50 años</h4>
+                        <img src="img/IL2GSFO4W2.jpg" class="responsive-img materialboxed" alt="">
+
+                        <p>Todo esto comenso el año 1998 cuando nustros abuelos abieron
+                            las puertas al publico, para ofreser el mejor servicio a las personas
+                            hoy en dia somos el restaurante mas reconocido al nivel nacional</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Salir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<br ng-show="borde == 5" id="test5">
+<div class=" center z-depth-0 g">
+    <h3 class="black-text">Hoy dìa Especial para Postres especiales.</h3>
+
+    <p class="black-text">-----El mejor lugar y el mejor sabor para tu paladar restaurante & cafe-----</p>
+    <img name="img" class="res responsive-img z-depth-2 hide-on-med-and-down" src="img/RROZJ2PJ2K.jpg">
+
+    <div class="res blue-grey-text col s12 m10 push-m1 l8 push-l2 mg-tp-1">
+        <h4>Nuestros postres el dìa de hoy son gratis</h4>
+
+        <p>Ven y consume los mejores platillos de nuestros pais
+            continua conociendo nuestros mejores platillos,
+            conoces nuestras instalaciones frente a ciudad sandino
+            nos puedes llamar al +505 5677789, para reservaciones:</p>
+
+        <div class="no-margin col s12 m10 push-m1 l8 push-l2 mg-tp-1">
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Nombre:</label>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_prefix" class="right">Telefono:</label>
+            <button class="btn waves-effect waves-light center-align t" type="submit" name="action">Enviar
+        </div>
+    </div>
+</div>
+<div class="white-text z-depth-0 divk center nuv">
+    <h3 class="white-text ">Conocenos</h3>
+
+    <p>---Tradiciòn & Pasiòn---</p>
+
+    <p>Tras años de experiencias y conocimientos trasmitodos de generaciòn <br>
+        aun valoramos la cultura de todos los paltillos de cada pueblo ya <br>
+        que es parte de su vida cotidianala mejores sabores tras conocimiento <br>
+        y practica</p>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger t transparent btn-large" href="#modal1">Historia</a>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content blue-grey-text">
+            <h4>Una gran historia 50 años</h4>
+            <img src="img/IL2GSFO4W2.jpg" class="responsive-img materialboxed" alt="">
+
+            <p>Todo esto comenso el año 1998 cuando nustros abuelos abieron
+                las puertas al publico, para ofreser el mejor servicio a las personas
+                hoy en dia somos el restaurante mas reconocido al nivel nacional</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Salir</a>
+        </div>
+    </div>
+</div>
+<br ng-show="borde == 1" id="test3">
+<section class="nuv center-align container">
+    <h2>Menu Especial</h2>
+
+    <p>-----La especialida del restaurantes-----</p>
+
+    <div ng-init="tab=1" class="col s12 m10 push-m1 l8 push-l2 mg-tp-1">
+        <ul class="tabs">
+            <li class="tab col s3">
+                <a class="black-text" ng-click="tab = 1" href="#test1">Cafè</a>
+            </li>
+            <li class="tab col s3">
+                <a class="black-text" ng-click="tab = 2" href="#test2">Refresco</a>
+            </li>
+        </ul>
+    </div>
+    <div ng-show="tab == 1" id="test1" class="col s12 m10 push-m1 l8 push-l2 pad-tp-1">
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <img src="img/cafe1.jpg" alt="" class="materialboxed k">
+                <span class="title">Mejor Cafe</span>
+
+                <p class="ce center">
+                    Somos líderes en el país, con la cadena de <br>
+                    Café-Restaurantes nicaragüense más grande y <br>
+                    sólida del mercado. En Casa del Café tomará <br>
+                    con garantía el mejor café de Nicaragua en un <br>
+                    ambiente que mezcla la tradición con la modernidad.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+
+                <img src="img/cafe2.jpg" alt="" class="materialboxed k">
+                <span class="title">Mejor Cafe</span>
+
+                <p class="ce center">
+                    Somos líderes en el país, con la cadena de <br>
+                    Café-Restaurantes nicaragüense más grande y <br>
+                    sólida del mercado. En Casa del Café tomará <br>
+                    con garantía el mejor café de Nicaragua en un <br>
+                    ambiente que mezcla la tradición con la modernidad.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <img src="img/cafe3.jpg" alt="" class="materialboxed k">
+                <span class="title">Mejor Cafe</span>
+
+                <p class="ce center">
+                    Somos líderes en el país, con la cadena de <br>
+                    Café-Restaurantes nicaragüense más grande y <br>
+                    sólida del mercado. En Casa del Café tomará <br>
+                    con garantía el mejor café de Nicaragua en un <br>
+                    ambiente que mezcla la tradición con la modernidad.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <img src="img/cafe4.jpg" alt="" class="materialboxed k">
+                <span class="title">Mejor Cafe</span>
+
+                <p class="ce center">
+                    Somos líderes en el país, con la cadena de <br>
+                    Café-Restaurantes nicaragüense más grande y <br>
+                    sólida del mercado. En Casa del Café tomará <br>
+                    con garantía el mejor café de Nicaragua en un <br>
+                    ambiente que mezcla la tradición con la modernidad.
+                </p>
+            </li>
+        </ul>
+
+    </div>
+    <div ng-show="tab==2" id="test2" class="col s12 m10 push-m1 l8 push-l2 pad-tp-1">
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <img src="img/6OJ88579KG.jpg" alt="" class="materialboxed k">
+                <span class="title"> Agua de Limón y Menta</span>
+
+                <p class="ce center">
+                    Agua de Limón y Menta <br>
+                    La receta del agua de limón y menta es antiquísima y <br>
+                    siempre se ha preparado para apaciguar la sed <br>
+                    en momentos de muchísimo calor o tras un gran esfuerzo..
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <img src="img/Man%20Serving%20Orange%20Coctails%20In%20Bar.jpg" alt="" class="materialboxed k">
+                <span class="title"> Agua de Limón y Menta</span>
+
+                <p class="ce center">
+                    Agua de Limón y Menta <br>
+                    La receta del agua de limón y menta es antiquísima y <br>
+                    siempre se ha preparado para apaciguar la sed <br>
+                    en momentos de muchísimo calor o tras un gran esfuerzo..
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <img src="img/UR1JSQIAUN.jpg" alt="" class="materialboxed k">
+                <span class="title"> Agua de Limón y Menta</span>
+
+                <p class="ce center">
+                    Agua de Limón y Menta <br>
+                    La receta del agua de limón y menta es antiquísima y <br>
+                    siempre se ha preparado para apaciguar la sed <br>
+                    en momentos de muchísimo calor o tras un gran esfuerzo..
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <img src="img/refresco45.jpg" alt="" class="materialboxed k">
+                <span class="title"> Agua de Limón y Menta</span>
+
+                <p class="ce center">
+                    Agua de Limón y Menta <br>
+                    La receta del agua de limón y menta es antiquísima y <br>
+                    siempre se ha preparado para apaciguar la sed <br>
+                    en momentos de muchísimo calor o tras un gran esfuerzo..
+                </p>
+            </li>
+        </ul>
+        <a class="waves-effect waves-light btn center">
+            la vista del menú</a>
+    </div>
+</section>
+<figure class="center r grey lighten-5">
+    <br><br>
+
+    <div class="bbt center no-margin">
+        <div class="no-padding no-margin"><h2>Galeria</h2>
+
+            <p>Los mejores platillos</p></div>
+        <div><img src="img/Tuna%20Steak%20With%20Relish%20On%20White%20Plate.jpg" alt=""></div>
+        <div><img src="img/Selection%20Of%20Cooked%20Seafood%20Including%20Crab%20And%20Lobster.jpg" alt=""></div>
+        <div><img src="img/R926LU1YEA.jpg" alt=""></div>
+        <div><img src="img/pexels-photo-59943.jpeg" alt=""></div>
+        <div><img src="img/OC8WX0E0X3.jpg" alt=""></div>
+    </div>
+    <br>
+    <a class="waves-effect btn">Ver Mas</a>
+    <br><br>
+</figure>
+<section class="bu black center">
+    <hr class="white-text" width="50%">
+    <h3 class="center white-text">Mis Experiencias Y la mejor atenciòn</h3>
+
+    <p class="center white-text">Artistas nacionales e internacional visita nuestro restaurant & cafe</p>
+
+    <div class="carousel">
+        <a class="carousel-item w" href="#one!">
+            <div class=" white-text">
+                <p>Mis mejores momentos con mis amigos los celebre aqui en este bello restaurante</p><img
+                    src="img/cara1.jpg" alt=""></div>
+        </a>
+        <a class="carousel-item w" href="#one!">
+            <div class="white-text ">
+                <p>Amo este lugar, cuando paquita la del barrio grabo su primer cerie fue aqui en nicaragua donde pudo
+                    grabar</p><img src="img/cara2.jpg" alt=""></div>
+        </a>
+        <a class="carousel-item w" href="#one!">
+            <div class="white-text">
+                <p>Uno de los mejores, con una mejor comida y el mejor servicio al nivel no se compara con
+                    ningun otro restaurante</p><img src="img/cara3.jpg" alt=""></div>
+        </a>
+        <a class="carousel-item w" href="#one!">
+            <div class="white-text">
+                <p>Los mejor de lo mejor</p><img src="img/cara4.jpg" alt=""></div>
+        </a>
+        <a class="carousel-item w" href="#one!">
+            <div class="white-text">
+                <p>Como recurerdo este lugar como uno de los mejores del pais.Donde llego</p><img src="img/cara5.jpg"
+                                                                                                  alt="" class="wr">
+            </div>
+        </a>
+    </div>
+    <img src="img/netx.png" alt="">
+    <hr class="blue-grey-text" width="50%">
+
+</section>
+<figure class="uu">
+    <h3><i class="material-icons">navigation</i>Ubicaciòn</h3>
+    <hr class="green-text">
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.0749936031325!2d-80.37263488582235!3d25.76808638363387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b91e6449d83b%3A0x74f29113a6205f57!2sMadro%C3%B1o+Restaurant!5e0!3m2!1ses-419!2sni!4v1475175750467"
+                    width="100%" class="center" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="card-content ">
+            <span class="card-title activator grey-text text-darken-4">Google maps<i class="material-icons right">more_vert</i></span>
+
+            <p><a href="#">GPS-Movil</a></p>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Ubicacion Mapas<i
+                    class="material-icons right">close</i></span>
+
+            <p>Nos puedes encontar frente acidad sandino 4 cuadras arriba donde tu </p>
+        </div>
+    </div>
+    <hr class="green-text">
+</figure>
+<br ng-show="borde == 4" id="test4">
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Cultura Y tradicción</h5>
+
+                <p class="grey-text text-lighten-4">Somos un restaurante de comida típica nicaragüense, comprometidos a
+                    satisfacer las necesidades y expectativas de nuestros clientes, mediante el trabajo en equipo,
+                    ofreciendo alimentos y servicios de alta calidad a precios accesibles en un ambientes campestre y
+                    familiar.
+
+                    Actualmente Restaurants & café es muy conocido por sus ricos quesillos, pero también ofrecemos una
+                    amplia variedad en carnes a la parrilla, así como también platos de recetas típicas nicaragüenses,
+                    donde podríamos mencionar el caballo bayo, nacatamal, vigorón y el indio viejo.
+
+                    Además de nuestros dos restaurantes contamos con el servicio de eventos, con el cual usted podra
+                    difrutar con familiares y amigos de aquellos momentos inolvidables.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Medios</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons">contacts</i> +505
+                        5678-8976</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons">email</i> Enviar correo</a>
+                    </li>
+                    <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons">person_pin</i>Personal</a>
+                    </li>
+                    <li><a class="grey-text text-lighten-3" href="#!"> <i
+                            class="material-icons">message</i>WhatsAppp</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons">store</i>Compras en
+                        linea</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Copyrightv Restaurants & cafe
+            <a class="grey-text text-lighten-4 right" href="#!">Derechos de autor: Emilio Antonio Gaitàn Fuentes</a>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="js/nuevo.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/personal.js"></script>
+</html>
